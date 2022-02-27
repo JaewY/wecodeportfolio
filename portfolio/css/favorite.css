@@ -1,0 +1,114 @@
+body {
+    background: url('../src/1.jpeg') center/cover;
+    height: 700px;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.portfolio {
+    width: 90%;
+    height: 95%;
+    background-color: #fff6e7;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.navbar__title a {
+    color: green;
+    margin-left: 40px;
+}
+
+.navbar__menu {
+    margin: 0;
+    padding-left: 0;
+    align-items: center;
+    display: flex;
+    list-style: none;
+}
+
+.navbar__menu a {
+    color: black;
+    font-weight: 600;
+    margin-right: 40px;
+}
+
+.navbar__menu a:hover,
+.navbar__menu a.clicked {
+    color: green;
+    border-bottom: 1px solid green;
+}
+
+/* favorite */
+.favorite {
+    height: 60%;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.favorite__title, .favorite__description {
+    text-align: center;
+    font-family: 'Jeju Myeongjo', serif;
+}
+
+.favorite__title {
+    -webkit-text-stroke: 2px black;
+    color: transparent;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 44px;
+    margin-top: 10px;
+}
+
+.favorite__imgs {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+.favorite__img {
+    width: 250px;
+    height: 200px;
+    background: white;
+    padding: 15px;
+    padding-bottom: 65px;
+    -webkit-box-shadow: 8px 8px 7px 1px rgba(154,154,154,0.96); 
+    box-shadow: 8px 8px 7px 1px rgba(154,154,154,0.96);
+    border: 1px solid whitesmoke;
+    cursor: pointer;
+    transition: all ease-in 200ms;
+}
+
+img {
+    /* border: 1px solid red; */
+}
+
+.favorite__img:hover {
+    transform: rotate(0deg);
+}
+
+.favorite1 {
+    transform: rotate(-15deg);
+}
+
+.favorite2 {
+    transform: rotate(10deg);
+}
+
+.favorite3 {
+    transform: rotate(-15deg);
+}
+
+.favorite__description {
+    margin: 30px 50px 0 50px;
+    font-size: 16px;
+}

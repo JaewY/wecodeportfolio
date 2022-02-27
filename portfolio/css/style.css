@@ -1,0 +1,108 @@
+body {
+    background: url('../src/1.jpeg') center/cover;
+    height: 700px;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.portfolio {
+    width: 90%;
+    height: 95%;
+    background-color: #fff6e7;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.navbar__title a {
+    color: green;
+    margin-left: 40px;
+}
+
+.navbar__menu {
+    margin: 0;
+    padding-left: 0;
+    align-items: center;
+    display: flex;
+    list-style: none;
+}
+
+.navbar__menu a {
+    color: black;
+    font-weight: 600;
+    margin-right: 40px;
+}
+
+.navbar__menu a:hover,
+.navbar__menu a.clicked {
+    color: green;
+    border-bottom: 1px solid green;
+}
+
+ /* index*/
+.contents {
+    margin-top: 100px;
+}
+
+.content__img {
+    height: 400px;
+    width: 300px;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    border: 1px solid blanchedalmond;
+    cursor: pointer;
+    -webkit-box-shadow: 5px 5px 5px -2px rgba(0,0,0,0.26); 
+box-shadow: 5px 5px 5px -2px rgba(0,0,0,0.26);
+    /* -webkit-box-shadow: 5px 5px 1px -3px rgba(214,214,214,0.38); 
+    box-shadow: 5px 5px 1px -3px rgba(214,214,214,0.38); */
+}
+
+.content__description {
+    height: 400px;
+    width: 300px;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    margin-top: 90px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: 'Poor Story', cursive;
+    display: none;
+}
+
+.content {
+    position: relative;
+}
+
+.photo {
+    position: sticky;
+    transform: translate(40px, 0) rotate(10deg);
+
+}
+
+.paper1 {
+    transform: rotate(-5deg);
+}
+
+.paper2 {
+    transform: rotate(10deg);
+}
+
+.paper3 {
+    transform: rotate(-15deg);
+}
+
+.paper4 {
+    transform: rotate(-5deg);
+}
